@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>INNOVISION 優視達</title>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>   
+    <script src="./bootstrap/js/hammer.min.js"></script><!--支援ad手機左右活動-->
+    <script src="./bootstrap/js/jquery.hammer.js"></script> <!--支援ad手機左右活動-->  
+
+    <link rel="icon" href="./images/all/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="./images/all/favicon.ico" type="image/x-icon"/>
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/all.css" rel="stylesheet">
+    <!--<link href="css/index.css" rel="stylesheet">-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+
+    $(document).ready(function(){ 
+      
+      $.get("./commonNav.html", function(data) {
+      $(".commonNav").html(data);
+      });
+    });  
+
+    $(document).ready(function(){ 
+      $.get("./footer.html", function(data) {
+      $(".footer").html(data);
+      });
+    });  
+
+    </script>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="commonNav">
+        
+      </div><!--commonNav-->
+      <div class="indexDiv">
+          <div class="news">
+            <div class="container newsContent">
+              <div class="row">
+                <div class="col-xs-12 col-sm-5 newsAd"><img src="images/index/news-ad.jpg" class="img-xs"></div><!--newsAd-->
+                <div class="col-xs-12 col-sm-7 newsList">
+                  <h3>NEWS</h3>
+                  <ul>
+                    <li><a href="#" target="_self">CHIC!CHIC!日拋 新品上市-new arrival<span class="arrow"></span></a></li>
+                    <li><a href="#" target="_self">VIRAL X 新系列美感再升級<span class="arrow"></span></a></li>
+                    <li><a href="#" target="_self">妞新聞報導 CHIC!CHIC! UV-Moist 新品<span class="arrow"></span></a></li>
+                    <li><a href="#" target="_self">KARACON 每日拋棄式透明日拋在三友藥妝上市囉<span class="arrow"></span></a></li>
+                  </ul>
+                </div><!--newsList-->
+              </div><!--row-->
+            </div><!--container newsContent-->
+          </div><!--news-->
+          <div class="newsItem">
+            <div class="container newsItemContent">
+              <div class="row">
+                <div class="col-xs-12 newsItem-title">
+                  <img src="images/index/newItem-title.jpg">
+                </div>
+              </div>
+              <div class="row newsItemBox">
+                  <div class="col-md-4 newsItem-ad-s">
+                    <a href="#" target="_self"><img src="images/index/newItem-ad-1.jpg"></a>
+                  </div>
+                  <div class="col-md-4 newsItem-ad-s">
+                    <a href="#" target="_self"><img src="images/index/newItem-ad-2.jpg"></a>
+                  </div>
+                  <div class="col-md-4 newsItem-ad-s">
+                    <a href="#" target="_self"><img src="images/index/newItem-ad-3.jpg"></a>
+                  </div>
+              </div><!--row newsItemBox-->
+              <div class="dotBox">
+                    <span class="icon-dot"></span>
+                    <span class="icon-dot"></span>
+                    <span class="icon-dot"></span>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 newsItem-ad-l">
+                  <a href="#" target="_self"><img src="images/index/newItem-ad-4.jpg"></a>
+                </div>
+              </div><!--row-->
+              <div class="row">
+                <div class="col-xs-12 newsItem-ad-l">
+                  <a href="#" target="_self"><img src="images/index/newItem-ad-5.jpg"></a>
+                </div>
+              </div><!--row-->
+              <div class="row">
+                <div class="col-xs-12 newsItem-ad-l">
+                  <a href="#" target="_self"><img src="images/index/newItem-ad-6.jpg"></a>
+                </div>
+              </div><!--row-->
+            </div><!--container newsItemContent-->
+          </div><!--newsItem-->
+          <div class="yourStyle">
+            <div class="container yourStyleContent">
+              <div class="row">
+                <div class="col-xs-12 yourStyle-title">
+                  <img src="images/index/yourStyle-title.jpg">
+                </div>
+              </div><!--row-->
+              <div class="row yourStyleBox">
+                <div class="col-md-4 yourStyleItem">
+                  <a href="#" target="_self">
+                    <span class="styleItem-tit"><b>Daily</b>&nbsp;|&nbsp;暖色系日拋</span>
+                    <img src="images/index/yourStyle-ad-1.jpg">
+                  </a>
+                </div>
+                <div class="col-md-4 yourStyleItem">
+                  <a href="#" target="_self">
+                    <span class="styleItem-tit"><b>Daily</b>&nbsp;|&nbsp;舒適透明片</span>
+                    <img src="images/index/yourStyle-ad-2.jpg">
+                  </a>
+                </div>
+                <div class="col-md-4 yourStyleItem">
+                  <a href="#" target="_self">
+                    <span class="styleItem-tit"><b>MIX</b>&nbsp;|&nbsp;韓系混血感</span>
+                    <img src="images/index/yourStyle-ad-3.jpg">
+                  </a>
+                </div>
+              </div><!--row yourStyleBox-->
+              <div class="dotBox">
+                    <span class="icon-dot"></span>
+                    <span class="icon-dot"></span>
+                    <span class="icon-dot"></span>
+              </div>
+            </div><!--container yourStyleContent-->
+          </div><!--yourStyle-->
+          <div class="storeBox">
+            <div class="storeBoxContent">
+                  <div class="storeBox-title">
+                    <img src="images/index/store-title.jpg">
+                  </div>
+                  <p class="text-lg">INNOVISION在線商品在台灣藥妝康是美<br/>
+                    Tomod&’s(三友藥妝)、札幌藥妝及特約眼鏡行等,<br/>
+                    約有<b>1000+店</b>在亞洲線上及實體通路銷售。</p>
+                  <p class="text-xs">INNOVISION在線商品在台灣藥妝康是美<br/>
+                    Tomod&’s(三友藥妝)札幌藥妝及特約眼鏡行等,<br/>
+                    約有<b>1000+店</b>在亞洲線上<br/>及實體通路銷售。</p>
+                  <ul class="storeBoxList">
+                    <li><img src="images/index/store-1.jpg"></li>
+                    <li><img src="images/index/store-2.jpg"></li>
+                    <li><img src="images/index/store-3.jpg"></li>
+                  </ul>
+                  <a href="area.html" target="_self" class="btnSale">銷售據點<span></span></a>
+            </div><!--storeBoxContent-->
+          </div><!--storeBox-->
+          
+      </div><!--end of indexDiv-->
+      <div class="footer">
+
+      </div><!--end of footer-->
+    </div><!--end of wrapper-->
+
+  </body>
+</html>
+<!--script src="./js/main.js"></script-->
